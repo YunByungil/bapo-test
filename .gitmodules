@@ -1,0 +1,3 @@
+[submodule "secure-submodule-test"]
+	path = secure-submodule-test
+	url = https://github.com/YunByungil/secure-submodule-test.git

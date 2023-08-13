@@ -8,7 +8,7 @@ class BapoApplicationTests {
 
 	@Test
 	void contextLoads() {
-		if (1 == 1) {
+		if (1 == 1) {//
 			throw new IllegalArgumentException();
 		}
 	}

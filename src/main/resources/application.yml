@@ -16,5 +16,5 @@ spring:
     open-in-view: false
 
 my-env:
-  first: gd
-  second: 5678
+  first: ${FIRST_BYUNGIL_ENV}
+  second: ${SECOND_BYUNGIL_ENV}

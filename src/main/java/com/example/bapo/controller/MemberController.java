@@ -19,6 +19,7 @@ public class MemberController {
     @PostMapping("/members")
     public ResponseEntity<String> signUp(@RequestBody SignUpRequest request) {
         memberDao.addMember(request.toMember());
+        // test입니다.
         return ResponseEntity.ok("OK!");
     }
 }

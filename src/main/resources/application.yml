@@ -14,3 +14,7 @@ spring:
         format_sql: true
         default_batch_fetch_size: 1000
     open-in-view: false
+
+my-env:
+  first: ${FIRST_BYUNGIL_ENV}
+  second: ${SECOND_BYUNGIL_ENV}
